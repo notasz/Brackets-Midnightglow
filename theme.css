@@ -1,155 +1,149 @@
 /*
  * Color Scheme
  * ============
- *
- * @FIXME Remove duplicated properties
  */
-.cm-meta                      { color: #fff; }
-.cm-comment                   { color: #808080;
+
+.cm-meta {
+    color: #fff;
+}
+.cm-comment {
+    color: #808080;
     background: inherit;
-    text-shadow: 0 0 0px #808080; }
-.cm-atom                      { color: #EC3522; }
-.cm-number                    { color: #EC3522; }
-.cm-property, .cm-attribute   { color: #187E91; }
-.cm-keyword                   { color: #BF1C0B; }
-.cm-string                    { color: #EC8422; }
-.cm-string.cm-property        { color: #F8F8F2; }
-.cm-variable                  { color: #fff; }
-.cm-variable-2                { color: #fff; }
-.cm-variable-3                { color: #fff; }
-.cm-qualifier                 { color: #EC3522; }
-.cm-def                       { color: #F8F8F0; }
-.cm-bracket                   { color: #F8F8F0; }
-.cm-operator                  { color: #f00; }
-.cm-tag                       { color: #EC8422; }
-.cm-link                      { color: #187E91; }
-.cm-error                     { color: #BF1C0B; text-shadow: 0 0 10px #BF1C0B;}
-.cm-builtin                   { color: #A6E22E; }
+    text-shadow: 0 0 0px #808080;
+}
+.cm-atom {
+    color: #EC3522;
+}
+.cm-number {
+    color: #EC3522;
+}
+.cm-property,
+.cm-attribute {
+    color: #187E91;
+}
+.cm-keyword {
+    color: #BF1C0B;
+}
+.cm-string {
+    color: #EC8422;
+}
+.cm-string.cm-property {
+    color: #F8F8F2;
+}
+.cm-variable {
+    color: #fff;
+}
+.cm-variable-2 {
+    color: #fff;
+}
+.cm-variable-3 {
+    color: #fff;
+}
+.cm-qualifier {
+    color: #EC3522;
+}
+.cm-def {
+    color: #F8F8F0;
+}
+.cm-bracket {
+    color: #F8F8F0;
+}
+.cm-operator {
+    color: #f00;
+}
+.cm-tag {
+    color: #EC8422;
+}
+.cm-link {
+    color: #187E91;
+}
+.cm-error {
+    color: #BF1C0B;
+    text-shadow: 0 0 10px #BF1C0B;
+}
+.cm-builtin {
+    color: #A6E22E;
+}
 /**
  * User Interface
  * ==============
- *
- * @TODO Matching words
- * @TODO Scrollbars
- * @TODO Find highlights
  */
+
 .CodeMirror,
 .CodeMirror .CodeMirror-scroll {
     background: #1c1c1c;
     color: #F8F8F2;
 }
-
 #not-editor,
 #image-holder {
     background-color: #222;
     color: #F8F8F2;
 }
-
 #status-bar {
     background: #1c1c1c;
 }
-
 #status-bar #status-info {
     color: #fff;
 }
-
 #status-bar #status-indicators {
     background: #1c1c1c;
     color: #fff;
 }
-
 #status-bar #status-overwrite {
     background: #1c1c1c;
     color: #fff;
 }
-
 .CodeMirror {
     border-left-color: #1B1B1B;
     background: #1c1c1c;
 }
-
 div.CodeMirror-selected {
     background: #444 !important;
 }
-
 .CodeMirror-gutters {
     background: #1c1c1c;
-/*    border-left: 1px solid white;*/
-/*    box-shadow: 0px 0px 2px white;*/
 }
-
 .CodeMirror-guttermarker {
     color: #F8F8F2;
 }
-
 .CodeMirror-guttermarker-subtle {
     color: #272822;
 }
-
 .CodeMirror-linenumber {
     color: #8D8D8A;
 }
-
 .CodeMirror-cursor {
     border-left: 1px solid #fff !important;
     box-shadow: 0 0 10px white;
 }
-
 .CodeMirror-activeline-background,
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
     background: #2c2c2c !important;
 }
-
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
     color: #fff;
     text-shadow: 0 0 3px white;
 }
-
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
     color: #767676;
 }
-
 .CodeMirror-matchingbracket {
     background-color: transparent !important;
     color: #1dff00 !important;
     text-shadow: 0 0 10px #1dff00;
     font-weight: bold;
 }
-
 .CodeMirror-nonmatchingbracket {
     color: #f00 !important;
     text-shadow: 0 0 10px #f00;
     backface-visibility: hidden;
     font-weight: bold;
 }
-
 .CodeMirror-matchingtag {
     background-color: transparent;
     text-shadow: 0 0 10px;
 }
-
 /**
  * Extensions
  * ==========
  */
-
-/*
- * Brackets-Vim (https://github.com/megalord/brackets-vim)
- * -------------------------------------------------------
- */
-.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
-    background: rgba(248, 248, 242, 0.5) !important;
-}
-
-/**
- * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
- * --------------------------------------------------------------------------
- */
-.CodeMirror .cm-dk-whitespace-space::before,
-.CodeMirror .cm-dk-whitespace-tab::before,
-.CodeMirror .cm-dk-whitespace-leading-space::before,
-.CodeMirror .cm-dk-whitespace-leading-tab::before,
-.CodeMirror .cm-dk-whitespace-trailing-space::before,
-.CodeMirror .cm-dk-whitespace-trailing-tab::before {
-    background-color: #75715E !important;
-}
