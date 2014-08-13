@@ -1,0 +1,20 @@
+{
+    "title": "Midnight Glow",
+    "name": "midnightglow-theme",
+    "description": "A brackets theme focus on readabiity.",
+    "version": "1.0",
+    "author": "Ryan McKay <ryanmckay@outlook.com>",
+    "homepage": "https://github.com/notasz/Brackets-Midnightglow",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:notasz/Brackets-Midnightglow.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "theme.css",
+        "dark": true
+    }
+}

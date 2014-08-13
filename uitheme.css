@@ -1,0 +1,39 @@
+#status-bar,
+#status-indicators {
+    background: #1c1c1c;
+    color: #ccc;
+    border-top: 1px solid #4c4c4c;
+}
+#status-info {
+    color: #ccc;
+    border-top: none;
+}
+/*For sidebar/filetree*/
+
+.sidebar {
+    background: #1c1c1c;
+    border-right: 1px solid #4c4c4c;
+}
+/*For working files container and triangle selector*/
+
+#working-set-header {
+    background: #1c1c1c;
+}
+#open-files-container {
+    background: #1c1c1c;
+}
+.sidebar-selection {
+    background: none;
+    border: none;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+}
+.sidebar-selection-triangle {
+    background: none;
+    border: none;
+}
+.sidebar-selection-triangle.triangle-visible:before {
+    background: none;
+    border: none;
+    display: none;
+}
